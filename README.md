@@ -7,4 +7,5 @@ Download from [Visual Studio Marketplace](https://marketplace.visualstudio.com/i
 ## Getting started
 After the extension has been installed, add a new item to your project and select *DataSet Light* under *Data*.
 
+![new item](https://raw.githubusercontent.com/b43r/DataSetLight/master/img/newitem.png "new item")
 
