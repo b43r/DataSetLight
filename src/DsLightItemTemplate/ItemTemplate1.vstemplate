@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DataSet Light</Name>
+    <Description>A lightweight alternative to ADO.NET DataSets.</Description>
+    <Icon>database.ico</Icon>
+    <TemplateID>11fec6b3-aaea-44ad-a6bd-9978dff393f2</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MyDataSet.dslt</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" CustomTool="DsLightFileGenerator">MyDataSet.dslt</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

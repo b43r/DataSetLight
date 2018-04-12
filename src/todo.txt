@@ -1,0 +1,42 @@
+
+TODO:
+
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/dc64c48e-82b6-4258-9239-3913fd5c62b4/adding-settings-and-resource-through-extensibility?forum=vsx
+http://msdn.microsoft.com/en-us/library/bb458154.aspx
+http://code.msdn.microsoft.com/
+http://msdn.microsoft.com/en-US/vstudio/ff718165.aspx
+http://msdn.microsoft.com/en-us/library/bb165410.aspx
+http://dotneteers.net/blogs/divedeeper/archive/2008/10/16/LearnVSXNowPart36.aspx
+
+
+Custom Tool:
+http://stackoverflow.com/questions/17597758/how-can-i-run-custom-tool-or-save-a-file-programmatically-using-envdte
+http://social.msdn.microsoft.com/Forums/vstudio/en-US/5419f679-c7f9-4e32-8d52-a5593a49ec02/programatically-run-custom-tool?forum=vsx
+
+Project-Type ermitteln:
+http://www.mztools.com/articles/2007/mz2007014.aspx
+http://www.mztools.com/articles/2007/MZ2007016.aspx
+
+
+Planned for next releases:
+
+	- Copy/paste entities
+	- Undo/redo
+	- Get type of parameters in a parametrized SQL query
+
+
+Deployment:
+http://visualstudiogallery.msdn.microsoft.com/
+
+
+WinForms/Console/Library
+========================
+App.config:			Namespace.Properties.Settings.ConnectionString
+Settings.Settings:	ConnectionString
+DataSet:			Properties.Settings.Default.ConnectionString
+
+WebApp/WebSite
+==============
+Web.config:			ConnectionString
+DataSet:			System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString
+

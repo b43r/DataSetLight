@@ -1,0 +1,34 @@
+﻿New in v1.4.1:
+==============
+
+ - VS2017 compatibility
+ - Bugfix: Generated code still compiles even if no connection string has been set
+
+
+New in v1.2:
+============
+
+ - Bugfix: Strings are always tested for NULL values
+
+ - Bugfix: If a new incompatible query is added to an entity, other queries are not marked as erroneous
+
+
+New in v1.1:
+============
+
+- Bugfix for multiline SQL statements and special characters in SQL queries
+
+- Bugfix: 'Finish' button sometimes not enabled in query editor dialog
+
+- Ctrl-A now selects all text in SQL query editor dialog
+
+- Scrollbar in SQL textbox
+
+- Datatype hints in SQL comments. Example:
+ 
+  UPDATE Product SET Price = @price /* dsl:decimal */ WHERE Id = @id /* dsl:int */
+
+  The above query will generate a method taking a parameter 'price' of type 'decimal'
+  and a parameter 'id' of type 'int'. Without the datatype hints both parameters would
+  be of type 'object'.
+
